@@ -1,1 +1,1 @@
-1. if Autowiring by singleton object then address of sahred object would be same even in different class 
+1. if Autowiring by singleton object then address of shared object would be same even in different class 
