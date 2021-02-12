@@ -1,11 +1,20 @@
 package com.kshitij.restIntro;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+//@Component
+//@Scope("prototype")
 public class User {
     private int id;
     private String name;
     private int age;
     private String country;
 
+    public User()
+    {
+
+    }
     public User(int id, String name, int age, String country) {
         this.id = id;
         this.name = name;
